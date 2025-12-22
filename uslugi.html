@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Система учёта услуг - ООО МОП КОМПЛЕКС-1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html, body { height: 100%; }
+        body { display: flex; flex-direction: column; }
+        footer { flex-shrink: 0; }
+        .service-img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    <header class="bg-primary text-white py-3 text-center">
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-3">
+                <a href="index.html" class="d-inline-block mb-3 mb-md-0" aria-label="КОМПЛЕКС 1">
+                    <img src="photo/ЛОГО.png" alt="КОМПЛЕКС 1" style="height:100px; width:auto;">
+                </a>
+                <div class="text-center text-md-start">
+                    <h1 class="mb-1 fs-3">ООО «Многоотраслевое предприятие КОМПЛЕКС-1»</h1>
+                    <p class="lead mb-0 fs-5">Система внутреннего учёта услуг по обустройству дорог</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="uslugi.html">Услуги</a></li>
+                    <li class="nav-item"><a class="nav-link" href="zakazi.html">Заказы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sklad.html">Склад</a></li>
+                    <li class="nav-item"><a class="nav-link" href="otchet.html">Отчёты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <section id="services">
+            <h2 class="mb-4">Каталог услуг</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body service-card text-center">
+                            <img src="photo/znaki.png" alt="Дорожные знаки" class="service-img mb-3">
+                            <div class="service-text">
+                                <h5>Дорожные знаки</h5>
+                                <p>Собственное производство знаков всех типов по ГОСТ Р 52290-2004. Плёнки типа А, Б, В (высокая светоотражающая способность). Изготовление и установка под ключ в кратчайшие сроки.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body service-card text-center">
+                            <img src="photo/doroga.png" alt="Дорожная разметка" class="service-img mb-3">
+                            <div class="service-text">
+                                <h5>Дорожная разметка</h5>
+                                <p>Нанесение горизонтальной разметки термопластиком и холодной краской. Современная техника обеспечивает высокую износостойкость и яркость даже в сложных климатических условиях.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body service-card text-center">
+                            <img src="photo/ograzhdeniya.png" alt="Пешеходные ограждения" class="service-img mb-3">
+                            <div class="service-text">
+                                <h5>Пешеходные ограждения</h5>
+                                <p>Установка перильных и удерживающих ограждений по ГОСТ Р 52289. Оцинкованная сталь с полимерным покрытием. Гарантия сохранности внешнего вида и прочности до 10 лет.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body service-card text-center">
+                            <img src="photo/mayachki.png" alt="Светодиодные маячки" class="service-img mb-3">
+                            <div class="service-text">
+                                <h5>Светодиодные маячки</h5>
+                                <p>Монтаж импульсных светодиодных фонарей Т.7 и сигнальных ламп на знаках. Автономное питание от солнечных панелей или сети. Повышают безопасность на опасных участках.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body service-card text-center">
+                            <img src="photo/katafoty.png" alt="Катафоты и стойки" class="service-img mb-3">
+                            <div class="service-text">
+                                <h5>Катафоты и стойки</h5>
+                                <p>Установка дорожных катафотов КД-3, КД-5, КД-6, гибких и металлических стоек. Обеспечивают видимость в тёмное время суток и при плохой погоде.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body service-card text-center">
+                            <img src="photo/sistemy.png" alt="Интеллектуальные системы" class="service-img mb-3">
+                            <div class="service-text">
+                                <h5>Интеллектуальные системы</h5>
+                                <p>Проектирование и монтаж автоматизированных систем управления дорожным движением (АСУДД), светофорных объектов, видеонаблюдения и информационных табло.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 ООО «Многоотраслевое предприятие КОМПЛЕКС-1» | Тел: 8 800 444-67-01 | Россия, Ростовская обл.
+г. Азов, ул. Дружбы, 48 | Политика конфиденциальности</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPage = location.pathname.split('/').pop() || 'index.html';
+            document.querySelectorAll('.nav-link').forEach(link => {
+                if (link.getAttribute('href') === currentPage) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
